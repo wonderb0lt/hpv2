@@ -8,5 +8,5 @@ class App extends React.Component {
 }
 
 // Import styling. This makes Webpack embed the compiled CSS into the page (...somehow...)
-import 'style/main.css';
+import '../style/main.scss';
 render(<App/>, document.getElementById('app'));
