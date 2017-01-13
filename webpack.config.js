@@ -22,7 +22,10 @@ var config = {
                 loaders: ["style-loader", "css-loader?sourceMap", "sass-loader?sourceMap"]
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin()
+    ]
 };
 
 module.exports = config;
