@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+$bgColor: #002b36;
+$fgColor: #93a1a1;
+
+html {
+  background-color: $bgColor;
+  color: $fgColor;
+  font-family: 'Roboto Mono', monospace;
+}
