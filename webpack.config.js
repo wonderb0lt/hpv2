@@ -23,6 +23,12 @@ var config = {
             }
         ]
     },
+    resolve: {
+        extensions: ['.jsx', '.js', '.json'],
+        // unsafeCache: true,
+        modules: [ 'node_modules', './src/client/app' ]
+    },
+
     plugins: [
         new webpack.optimize.UglifyJsPlugin()
     ]
